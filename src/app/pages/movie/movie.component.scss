@@ -1,0 +1,43 @@
+@import '../../../styles/_colors';
+
+:host ::ng-deep {
+    .p-tabview-nav {
+        justify-content: center;
+    }
+}
+
+.poster {
+    max-width: 100%;
+}
+
+.overview {
+    line-height: 1.6;
+}
+
+.stat {
+    display: flex;
+    margin-bottom: 0.25rem;
+
+    .label {
+        width: 10rem;
+        font-weight: bold;
+    }
+
+    .value {
+        color: $primaryColor;
+    }
+}
+
+.actor {
+    padding: 0 2%;
+
+    img {
+        width: 100%;
+    }
+
+    span {
+        display: block;
+        text-align: center;
+        margin: 0.25rem 0;
+    }
+}
