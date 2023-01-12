@@ -5,7 +5,7 @@
         <p-tabPanel header="Overview">
             <div class="wrapper">
                 <div class="grid">
-                    <div class="col-12 md:col-2 lg:col-2">
+                    <div class="col-12 md:col-2 lg:col-2 mr-2">
                         <img
                             class="poster"
                             [src]="imagesSizes.medium + movie.poster_path"
@@ -13,7 +13,7 @@
                         />
                     </div>
                     <div class="col-12 md:col-9 lg:col-9">
-                        <h2 class="mt-0">Overview</h2>
+                        <h2 class="m-0">Overview</h2>
                         <p class="overview">{{ movie.overview }}</p>
                         <div class="stat">
                             <div class="label">Release date:</div>
@@ -49,7 +49,7 @@
             <div class="wrapper">
                 <div class="grid">
                     <ng-container *ngFor="let movieVideo of movieVideos">
-                        <div class="col-12 md:col-4 lg:col-4">
+                        <div class="col-12 md:col-4 lg:col-4 br-1">
                             <video-embed
                                 [key]="movieVideo.key"
                                 [site]="movieVideo.site"
@@ -63,7 +63,7 @@
             <div class="wrapper">
                 <div class="grid">
                     <ng-container *ngFor="let movieImage of movieImages?.backdrops">
-                        <div class="col-12 md:col-4 lg:col-4">
+                        <div class="col-12 md:col-4 lg:col-4 br-1">
                             <img
                                 [src]="imagesSizes.large + movieImage.file_path"
                                 alt="Image"
