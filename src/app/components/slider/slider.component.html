@@ -15,13 +15,17 @@
                                 ><span>/10</span>
                             </span>
                             <span>{{ item.vote_count }} reviews</span>
-                            <span>{{ item.release_date | date: 'yyyy' }}</span>
+                            <span>{{ item.release_date | date : 'yyyy' }}</span>
                         </div>
                     </div>
 
-                    <div class="desc mt-4">
+                    <div class="desc my-4">
                         {{ item.overview }}
                     </div>
+
+                    <a routerLink="/movie/{{ item.id }}" class="genre-link mt-5"
+                        >See movie details</a
+                    >
                 </div>
             </div>
         </div>

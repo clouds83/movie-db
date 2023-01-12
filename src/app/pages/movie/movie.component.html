@@ -5,7 +5,7 @@
         <p-tabPanel header="Overview">
             <div class="wrapper">
                 <div class="grid">
-                    <div class="col-12 md:col-3 lg:col-3">
+                    <div class="col-12 md:col-2 lg:col-2">
                         <img
                             class="poster"
                             [src]="imagesSizes.medium + movie.poster_path"
@@ -13,11 +13,11 @@
                         />
                     </div>
                     <div class="col-12 md:col-9 lg:col-9">
-                        <h2>Overview</h2>
+                        <h2 class="mt-0">Overview</h2>
                         <p class="overview">{{ movie.overview }}</p>
                         <div class="stat">
                             <div class="label">Release date:</div>
-                            <div class="value">{{ movie.release_date | date: 'dd.MM.yyyy' }}</div>
+                            <div class="value">{{ movie.release_date | date : 'dd.MM.yyyy' }}</div>
                         </div>
                         <div class="stat">
                             <div class="label">Language:</div>
@@ -76,7 +76,7 @@
         </p-tabPanel>
     </p-tabView>
 
-    <div class="wrapper">
+    <div class="wrapper mb-3">
         <p-carousel [numVisible]="5" *ngIf="movieCredits" [value]="movieCredits.cast">
             <ng-template let-actor pTemplate="item">
                 <div class="actor">
