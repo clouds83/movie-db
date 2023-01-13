@@ -23,7 +23,7 @@
                         {{ item.overview }}
                     </div>
 
-                    <a routerLink="/movie/{{ item.id }}" class="genre-link mt-5"
+                    <a *ngIf="!isBanner" routerLink="/movie/{{ item.id }}" class="genre-link mt-5"
                         >See movie details</a
                     >
                 </div>

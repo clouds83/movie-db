@@ -23,6 +23,12 @@ header {
             li {
                 display: inline;
                 margin-right: 1rem;
+
+                a {
+                    &.active {
+                        color: $primaryColor;
+                    }
+                }
             }
         }
     }
