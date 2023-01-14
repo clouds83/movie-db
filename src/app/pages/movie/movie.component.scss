@@ -9,6 +9,10 @@
 .poster {
     max-width: 100%;
     border-radius: 4px;
+
+    @media (max-width: 640px) {
+        max-width: 50%;
+    }
 }
 
 .overview {
@@ -40,5 +44,9 @@
         display: block;
         text-align: center;
         margin: 0.25rem 0;
+
+        @media (max-width: 640px) {
+            font-size: 0.75rem;
+        }
     }
 }

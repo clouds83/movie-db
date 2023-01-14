@@ -140,6 +140,10 @@ footer span {
 
 .p-tabview .p-tabview-panels {
     padding: 2rem 0;
+
+    @media (max-width: 640px) {
+        padding: 1rem;
+    }
 }
 
 .p-tabview-nav {
@@ -225,5 +229,42 @@ footer span {
     &:hover {
         transform: translate(0, -2px);
         color: $primaryColor;
+    }
+}
+
+.p-carousel .p-carousel-content .p-carousel-prev,
+.p-carousel .p-carousel-content .p-carousel-next,
+.p-carousel .p-carousel-content .p-carousel-prev:enabled:hover,
+.p-carousel .p-carousel-content .p-carousel-next:enabled:hover {
+    z-index: 999;
+    background-color: #00000052;
+    margin: 0;
+}
+
+@media (max-width: 640px) {
+    .mt-7 {
+        margin-top: 2.5rem !important;
+    }
+
+    .mb-7 {
+        margin-bottom: 2.5rem !important;
+    }
+
+    .my-7 {
+        margin-top: 2.5rem !important;
+        margin-bottom: 2.5rem !important;
+    }
+
+    .poster-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p-carousel-content {
+        padding: 0 1rem;
+    }
+
+    .p-component {
+        font-size: 0.875rem;
     }
 }

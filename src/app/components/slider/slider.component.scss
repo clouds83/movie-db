@@ -18,6 +18,18 @@
         align-items: center;
         overflow: hidden;
 
+        @media (max-width: 640px) {
+            height: 75vh;
+
+            .slide-bg {
+                height: 75vh;
+
+                &:after {
+                    background: #000000cf;
+                }
+            }
+        }
+
         &-bg {
             position: relative;
             display: flex;
@@ -91,7 +103,23 @@
                 font-size: 1rem;
                 line-height: 1.6;
             }
+
+            @media (max-width: 640px) {
+                padding-right: 1rem;
+
+                .movie-title {
+                    font-size: 1.5rem;
+                }
+
+                .desc {
+                    font-size: 0.875rem;
+                }
+            }
         }
+    }
+
+    @media (max-width: 640px) {
+        height: 75vh;
     }
 }
 
