@@ -11,6 +11,6 @@ The layout was a little simpler, so I improved a little.
 - PrimeFlex CSS
 - The Movie Database API
 
-![home-desktop](https://user-images.githubusercontent.com/1158183/212572489-4a91a8c7-2c31-40f9-a2e4-c1fd58c97aa0.jpg)
+![home desktop](https://user-images.githubusercontent.com/1158183/212572693-382d1329-00c8-4fca-9d78-31c1c611afdb.jpg)
 
 ![movie desktop](https://user-images.githubusercontent.com/1158183/212572655-725463c9-ba48-4319-8aec-851a62fe5abc.jpg)
