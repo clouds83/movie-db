@@ -13,4 +13,4 @@ The layout was a little simpler, so I improved a little.
 
 ![home-desktop](https://user-images.githubusercontent.com/1158183/212572489-4a91a8c7-2c31-40f9-a2e4-c1fd58c97aa0.jpg)
 
-![movie-desktop](https://user-images.githubusercontent.com/1158183/212572593-c89f99a2-9094-4194-b60a-90ad7829410b.jpg)
+![movie desktop](https://user-images.githubusercontent.com/1158183/212572655-725463c9-ba48-4319-8aec-851a62fe5abc.jpg)
